@@ -16,7 +16,7 @@ mongoose.connect(dbConfig.url, {
 });
 
 app.get('/', (req, res) => {
-    res.json({"message": "Welcome to a my node API..."});
+    res.json({"message": "Welcome to my node API..."});
 });
 
 //routes
